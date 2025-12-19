@@ -1,0 +1,77 @@
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Homemade Apple", cursive;
+    background-color: #fff5f8;
+    text-align: center;
+    padding: 30px;
+
+    background-image:url("pattern.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    color: #86144d;
+    font-size: 50px;
+    padding-bottom: -3px;
+   text-shadow:
+    -4px -4px 0 #ffcfe7,
+     4px -4px 0 #ffcfe7,
+    -4px  4px 0 #ffcfe7,
+     4px  4px 0 #ffcfe7;
+
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow:
+    -2px -2px 0 #ffcfe7,
+     2px -2px 0 #ffcfe7,
+    -2px  2px 0 #ffcfe7,
+     2px  2px 0 #ffcfe7;
+}
+
+h3 {
+    color:#d63384;
+}
+
+form {
+    background: #ffcfe7;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+input, textArea {
+    font-family: "Homemade Apple", cursive;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    font-family: "Homemade Apple", cursive;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7ebf;
+}
+
+.letter {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}

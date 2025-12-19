@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Secret Letters</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Secret Letters</h1>
+        <p>Letters you'll never send...</p>
+
+        <form id="letterForm">
+            <p>To whom are you addressing this letter to...</p>
+            <input
+            type="text"
+            id="recipient"
+            placedholder="Recipient name"
+            required
+            >
+            <textarea
+            id="letterText"
+            placeholder="Write your letter here..."
+            required
+            ></textarea>
+
+            <button type="submit">Save Letter</button>
+        </form>
+
+        <h2>Saved Letters</h2>
+        <div id="lettersContainer"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
